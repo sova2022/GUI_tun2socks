@@ -1,0 +1,1 @@
+pyinstaller --windowed -i icon.ico --add-data "proxy.txt;." --add-data "tun2socks-windows-amd64.exe;." --add-data "wintun.dll;." --add-data "icon.ico;." --add-data "icon.png;." --add-data "start_b.bat;." --add-data "flush_out.bat;." GUI_tun2socks.py
