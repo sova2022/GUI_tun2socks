@@ -46,7 +46,7 @@ FOR /F "usebackq delims=\ tokens=8 " %%a IN (`reg query "%root%" /s /f "!DEF_GW!
  set def_gw_prof_profile=%%a
 )
 
-FOR /F "usebackq delims=" %%a IN (`reg query %root%\%def_gw_prof_profile% /s /f NameServer ^| findstr /V "DhcpNameServer End" `) do (
+FOR /F "usebackq delims=" %%a IN (`reg query %root%\%def_gw_prof_profile% /s /f NameServer ^| findstr /V "DhcpNameServer :" `) do (
  set NameServer=%%a
 )
 
