@@ -15,7 +15,7 @@
 1. Активировать виртуальное окружение, введя `.\Scripts\activate.bat`
 1. `git clone https://github.com/sova2022/GUI_tun2socks.git` (либо скачать архив программы через браузер, выбрав в верхней правой части данной страницы зелёную клавишу `Code`, далее `Download zip`. Распаковать архив в `C:\any\path\you\like\packenv`
 1. Перейти в папку с программой `cd GUI_tun2socks` (либо `cd GUI_tun2socks-main\GUI_tun2socks-main`)
-1. Установить зависимости командой `pip install -r requariments.txt`
+1. Установить зависимости командой `pip install -r requirements.txt`
 1. Запустить скрипт: `python3 GUI_tun2socks.py`
 
 При запуске предоставьте программе права администратора.
